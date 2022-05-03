@@ -59,7 +59,7 @@ const pizzaController = {
             res.json(dbPizzaData);
         })
         .catch(err => res.status(400).json(err));
-    }
+    },
 }
 
 module.exports = pizzaController;
